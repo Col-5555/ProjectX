@@ -1,0 +1,118 @@
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises$ mkdir ProjectX
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises$ ls
+BuildandDeployWebsite  new_text_file.txt  PracticeFolder  ProjectX  resourcify  resourcify2  vs-code-prework-exercise
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises$ cd ProjectX/
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ ls
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ mkdir docs
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ cd docs/
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/docs$ mkdir reports
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/docs$ cd reports/
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/docs/reports$ touch report_one.txt
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/docs/reports$ touch report_two.txt
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/docs/reports$ cd ..
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/docs$ ls
+reports
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/docs$ cd reports/
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/docs/reports$ ls
+report_one.txt  report_two.txt
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/docs/reports$ cd ..
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/docs$ ls
+reports
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/docs$ mkdir images
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/docs$ cd ..
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ ls
+docs
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ ls docs/
+images  reports
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ pwd
+/home/user/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ mkdir src
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ cd src/
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src$ mkdir html
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src$ cd html/
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src/html$ touch index.html
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src/html$ ls
+index.html
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src/html$ cd ..
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src$ ls
+html
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src$ pwd
+/home/user/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src$ mkdir css
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src$ touch css/style.css
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src$ ls css/
+style.css
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src$ mkdir js
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src$ touch js/script.js
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src$ ls
+css  html  js
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src$ ls js/
+script.js
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/src$ cd ..
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ mkdir data
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ touch data/data.txt
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ ls data/
+data.txt
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ echo "Hello Data" >> data/data.txt
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ cdt data/data.txt
+Command 'cdt' not found, but there are 16 similar ones.
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ cat data/data.txt
+Hello Data
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialised empty Git repository in /home/user/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX/.git/
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ touch .gitkeep
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ git add .
+user@geoffery:~/sambashare/01-PROJECTS/C
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitkeep
+        new file:   data/data.txt
+        new file:   docs/reports/report_one.txt
+        new file:   docs/reports/report_two.txt
+        new file:   src/css/style.css
+        new file:   src/html/index.html
+        new file:   src/js/script.js
+
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ git commit -m "initial commit"
+[master (root-commit) c910575] initial commit
+ 7 files changed, 1 insertion(+)
+ create mode 100644 .gitkeep
+ create mode 100644 data/data.txt
+ create mode 100644 docs/reports/report_one.txt
+ create mode 100644 docs/reports/report_two.txt
+ create mode 100644 src/css/style.css
+ create mode 100644 src/html/index.html
+ create mode 100644 src/js/script.js
+
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ git remote add origin https://github.com/Col-5555/ProjectX.git
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ git branch -M main
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ git push -u origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (11/11), 709 bytes | 709.00 KiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Col-5555/ProjectX.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+user@geoffery:~/sambashare/01-PROJECTS/CLA-026-001/01-Exercises/ProjectX$ git status
+On branch UpdateIndex
+nothing to commit, working tree clean
+
